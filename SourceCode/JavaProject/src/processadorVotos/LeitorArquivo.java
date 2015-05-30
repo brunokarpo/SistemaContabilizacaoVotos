@@ -20,7 +20,7 @@ public class LeitorArquivo {
 		BufferedReader br;
 
 		try {
-			arquivo = new File("/mnt/369AEB034FBEFEB7/Repositorio/Git/SistemaContabilizacaoVotos/src/votos.txt");
+			arquivo = new File("/mnt/369AEB034FBEFEB7/Repositorio/Git/SistemaContabilizacaoVotos/SourceCode/JavaProject/src/votos.txt");
 			in = new FileInputStream(arquivo);
 			isr = new InputStreamReader(in);
 			br = new BufferedReader(isr);
