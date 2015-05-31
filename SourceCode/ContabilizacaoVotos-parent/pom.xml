@@ -15,6 +15,7 @@
 		<module>votos-fila</module>
 		<module>voto-processador-entrada</module>
 		<module>voto-processador-resultado</module>
+		<module>votos-sistema</module>
 	</modules>
 
 </project>
