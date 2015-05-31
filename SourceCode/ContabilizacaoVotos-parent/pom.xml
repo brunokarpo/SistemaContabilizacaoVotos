@@ -13,6 +13,7 @@
 	<modules>
 		<module>votos-entidades</module>
 		<module>votos-fila</module>
+		<module>voto-processador-entrada</module>
 	</modules>
 
 </project>
