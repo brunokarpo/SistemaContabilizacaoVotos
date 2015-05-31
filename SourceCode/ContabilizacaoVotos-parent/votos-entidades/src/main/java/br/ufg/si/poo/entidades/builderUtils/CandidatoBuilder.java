@@ -12,6 +12,10 @@ public class CandidatoBuilder {
 
 	private Candidato instancia;
 
+	public CandidatoBuilder() {
+		instancia = new Candidato();
+	}
+
 	/**
 	 * Coloca o nome na instancia de candidato a ser construido
 	 * @param nome do candidato
