@@ -42,10 +42,10 @@ public abstract class AbstractProcessadorVotos {
 			} catch (FilaVaziaException e) {
 				LOG.warn("No momento a fila está vazia. Vamos aguardar 10 segundos antes de tentarmos processar novamente");
 				try {
-					Thread.sleep(100000);
+					Thread.sleep(10000);
 					tempoInativo++;
 
-					if(tempoInativo > 10) {
+					if(tempoInativo > 6) {
 						ativo = false;
 					}
 				} catch (InterruptedException e1) {

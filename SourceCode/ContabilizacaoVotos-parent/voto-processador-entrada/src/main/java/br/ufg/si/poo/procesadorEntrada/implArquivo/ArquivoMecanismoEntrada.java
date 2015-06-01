@@ -31,7 +31,7 @@ public class ArquivoMecanismoEntrada implements IMecanismoEntrada {
 		BufferedReader br = null;
 
 		try {
-			File arquivoVotos = new File("resources/Votos.txt");
+			File arquivoVotos = new File("./config/Votos.txt");
 			LOG.debug("Lendo arquivo: " + arquivoVotos.getCanonicalPath() );
 
 			is = new FileInputStream(arquivoVotos);
